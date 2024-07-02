@@ -164,6 +164,8 @@ def juego_actualizar(juego, tecla_pres, teclas, piezas, puntaje):
     if teclas[tecla_pres] == 'DESCENDER': 
         juego_nuevo, opcion = tetris.avanzar(juego, piezas[1])
         if opcion[0]:
+            # sound_path = tetris.get_resource_path(os.path.join('sound', 'colision.wav'))
+            # gamelib.play_sound(sound_path)
             puntos_totales = tetris.puntuaciones(opcion[1], puntaje[0])
             puntaje[0] = puntos_totales
             puntaje[1] += opcion[1]
