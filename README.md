@@ -4,4 +4,4 @@ Este es un trabajo practico realizado para la Facultad de Ingenieria UBA, se uti
 ## Ejecutable del juego para windows
 [Tetris.exe](https://github.com/FranTapia01/TP2-Tetris/raw/main/dist/tetris.exe) 
 
-[!captura](dist/Captura.png) 
+![captura](dist/Captura.png) 
