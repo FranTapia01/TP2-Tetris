@@ -1,0 +1,6 @@
+asa;100
+juan;90
+desconocido;90
+a;90
+vacio;0
+vacio;0
